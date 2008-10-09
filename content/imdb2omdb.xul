@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE window SYSTEM "chrome://imdb2omdb/locale/imdb2omdb.dtd">
+
+<overlay id="movierok-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	
+	<script type="application/x-javascript" src="chrome://imdb2omdb/content/imdb2omdb.js"/>
+	<script type="application/x-javascript" src="chrome://imdb2omdb/content/imdb_fullcredits.js"/>
+	<script type="application/x-javascript" src="chrome://imdb2omdb/content/imdb_facts.js"/>
+	<script type="application/x-javascript" src="chrome://imdb2omdb/content/lib.js"/>
+	<script type="application/x-javascript" src="chrome://imdb2omdb/content/omdb_requests.js"/>
+	
+	<!-- tools menu -->
+	<menupopup id="menu_ToolsPopup">
+		<menuitem label="imdb2omdb" oncommand="imdb2omdb();" insertafter="javascriptConsole"/>
+	</menupopup> 
+
+	
+
+</overlay>

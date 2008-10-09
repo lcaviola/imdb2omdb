@@ -1,0 +1,4 @@
+content imdb2omdb jar:chrome/extension@imdb2omdb.jar!/content/
+locale	imdb2omdb	en-US		jar:chrome/extension@imdb2omdb.jar!/locale/en-US/
+skin	imdb2omdb	classic/1.0	jar:chrome/extension@imdb2omdb.jar!/skin/
+overlay chrome://browser/content/browser.xul chrome://imdb2omdb/content/imdb2omdb.xul
