@@ -18,7 +18,7 @@ function imdb2omdb() {
     if (doc.location.href.indexOf('http://www.imdb.com/title/') == 0) {
         start_process()
     } else {
-        alert('no imdb movie page')
+        alert('usage:\n1. create an account on omdb.org and login\n2. check if the movie does not yet exist\n3. create the movie\n4. title must be the same as the one on imdb\n5. copy the id (from the addressbar)\n6. go to the imdb movie page\n7. click on tools - imdb2omdb and enter the id')
     }
 }
 
